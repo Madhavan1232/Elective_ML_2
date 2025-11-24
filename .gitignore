@@ -2,5 +2,4 @@
 .conda/
 __pycache__/
 .idea/
-*/Data
 .vscode/
