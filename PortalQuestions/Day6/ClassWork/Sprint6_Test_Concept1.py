@@ -42,23 +42,3 @@ print(f"Mean Squared Error (MSE) : {mean:.4f}")
 print(f"Mean Absolute Error (MAE): {mean_abo:.4f}")
 print(f"Root Mean Squared Error  : {root:.4f}")
 print(f"R² Score (Test)          : {r2score:.4f}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
