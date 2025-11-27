@@ -1,8 +1,11 @@
 import pandas as pd
+import numpy as np
 import os, sys
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
+
 
 data = pd.read_csv(os.path.join(sys.path[0], input()))
 df = data[["Customer_Age", "Order_Quantity", "Unit_Cost", "Unit_Price", "Revenue"]]
